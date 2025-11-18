@@ -1,0 +1,51 @@
+[
+  {
+    "_id": "cus00001",
+    "name": "Juan Rey Baltasar",
+    "address": {
+      "street": "Right Street",
+      "number": "33",
+      "city": "Barcelona",
+      "postalCode": "08001",
+      "country": "Spain"
+    },
+    "phone": "678421235",
+    "email": "email@domini.com",
+    "registrationDate": "2022-07-23",
+    "recommendedBy": null
+  },
+
+
+  {
+    "_id": "cus00002",
+    "name": "María Guix Gros",
+    "address": {
+      "street": "Diagonal Avenue",
+      "number": "444",
+      "city": "Barcelona",
+      "postalCode": "08055",
+      "country": "Spain"
+    },
+    "phone": "681234560",
+    "email": "mariag@domini.com",
+    "registrationDate": "2023-03-15",
+    "recommendedBy": "cus00001"
+  },
+
+  
+  {
+    "_id": "cus00003",
+    "name": "Zeferino Poble Nou",
+    "address": {
+      "street": "Rambla de Agua",
+      "number": "78",
+      "city": "Barcelona",
+      "postalCode": "08000",
+      "country": "Spain"
+    },
+    "phone": "677007700",
+    "email": "zeferinop@domini.com",
+    "registrationDate": "2025-01-10",
+    "recommendedBy": "cus00001"
+  }
+]

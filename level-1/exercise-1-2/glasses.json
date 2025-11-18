@@ -1,0 +1,55 @@
+[
+  {
+    "_id": "gls00001",
+    "brand": "Raybimbon",
+    "graduation": {
+      "leftLens": 2.3,
+      "rightLens": 2.0
+    },
+    "frameType": "Metallic",
+    "frameColor": "Silver",
+    "lensColor": {
+      "leftLens": "Transparent",
+      "rightLens": "Transparent"
+    },
+    "price": 127.30,
+    "supplierId": "sup00001",
+    "stock": 7
+  },
+  
+  {
+    "_id": "gls00002",
+    "brand": "Okey Mckey",
+    "graduation": {
+      "leftLens": 1.50,
+      "rightLens": 1.75
+    },
+    "frameType": "Plastic",
+    "frameColor": "Black",
+    "lensColor": {
+      "leftLens": "Gray",
+      "rightLens": "Gray"
+    },
+    "price": 145.10,
+    "supplierId": "sup00002",
+    "stock": 8
+  },
+  
+  {
+    "_id": "gls00003",
+    "brand": "Raybimbon",
+    "graduation": {
+      "leftLens": 0.0,
+      "rightLens": 0.0
+    },
+    "frameType": "Rimless",
+    "frameColor": "Gold",
+    "lensColor": {
+      "leftLens": "Brown",
+      "rightLens": "Brown"
+    },
+    "price": 189.98,
+    "supplierId": "sup00001",
+    "stock": 5
+  }
+]

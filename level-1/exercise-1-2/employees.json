@@ -1,0 +1,19 @@
+[
+  {
+    "_id": "emp00001",
+    "name": "Rosa Flores",
+    "phone": "677543210",
+    "email": "rosaf@dominio.com",
+    "position": "SalesManager",
+    "hireDate": "2019-01-10"
+  },
+
+  {
+    "_id": "emp00002",
+    "name": "Pedro Picapiedra",
+    "phone": "665432198",
+    "email": "pedrop@dominio.com",
+    "position": "SalesPerson",
+    "hireDate": "2021-06-20"
+  }
+]
