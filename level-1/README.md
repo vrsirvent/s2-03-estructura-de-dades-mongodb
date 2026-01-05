@@ -17,26 +17,13 @@ For customers, it wants to store: The name, postal address, telephone number, em
 When a new customer arrives, store the customer who recommended the establishment (provided that someone has recommended it). 
 Our system will have to indicate which employee sold each pair of glasses. Define the day/time of the sale. 
 
-Exercise 1
+## Exercise 1
+
 Imagine that we have the following graphical interface, from the point of view of an optician's customer. How would you design the database 
 to provide the information?
 
-Exercise 2
-What if the point of view were from the glasses interface?
+## Exercise 2
 
-Level-1/exercise-1-2
-    |       |
-    |       ├── suppliers.json  # .json file - Structured data that can be imported into a database
-    |       ├── sales.json      
-    |       ├── glasses.json
-    |       ├── employees.json
-    |       ├── customers.json
-    |       ├── suppliers.js    # .js file - Writing and executing commands in the MongoDB shell
-    |       ├── sales.js        
-    |       ├── glasses.js
-    |       ├── employees.js
-    |       ├── customers.js
-    |       ├── product_interface_queries.js    # .js of the interface file - Writing and executing commands in the MongoDB shell
-    |       └── customer_interface_queries.js   # .js of the interface file - Writing and executing commands in the MongoDB shell
-    └── README.md       # Exercise documentation     
+What if the point of view were from the glasses interface?
+   
 
