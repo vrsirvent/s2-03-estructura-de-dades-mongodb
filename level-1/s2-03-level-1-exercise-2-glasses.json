@@ -1,0 +1,178 @@
+[
+  {
+    "_id": { "$oid": "7112d5b1cd031496f365fb01" },
+    "brand": "Ziggy Edition",
+    "frame": "metallic",
+    "frameColor": "red",
+    "graduation": {
+      "leftLens": -1.25,
+      "rightLens": -1.0
+    },
+    "glassColor": {
+      "left": "blue",
+      "right": "green"
+    },
+    "price": 198.00,
+    "provider": {
+      "name": "Starm Lenses",
+      "taxId": "D44781239",
+      "telephone": "565656565656",
+      "fax": "969696969696",
+      "address": {
+        "street": "Kurtendamm",
+        "number": 88,
+        "floor": 4,
+        "door": "C",
+        "city": "Berlin",
+        "postalCode": "10709",
+        "country": "Germany"
+      }
+    },
+    "boughtBy": [
+      {
+        "customerId": { "$oid": "7112c4a2bd920385e254ea02" },
+        "clientName": "Rodig Falken",
+        "telephone": "494949494949",
+        "email": "rudigerh@mongo.com",
+        "saleAddress": {
+          "street": "Rosenthaler Strasse",
+          "number": 52,
+          "floor": 3,
+          "door": "2B",
+          "city": "Hamburg",
+          "postalCode": "20095",
+          "country": "Germany"
+        },
+        "saleDateTime": "2025-07-14T15:00:00Z",
+        "employee": {
+          "internalId": "EMPLOYEE-02",
+          "name": "Pepe P"
+        }
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "7112d5b2cd031496f365fb02" },
+    "brand": "Lucille Blue Lens",
+    "frame": "metallic",
+    "frameColor": "black",
+    "graduation": {
+      "leftLens": -2.5,
+      "rightLens": -2.25
+    },
+    "glassColor": {
+      "left": "blue",
+      "right": "blue"
+    },
+    "price": 160.00,
+    "provider": {
+      "name": "Blues Vision",
+      "taxId": "E98123450",
+      "telephone": "191919191919",
+      "fax": "525252525252",
+      "address": {
+        "street": "Mississippi Boulevard",
+        "number": 100,
+        "floor": 1,
+        "door": "A",
+        "city": "Memphis",
+        "postalCode": "38106",
+        "country": "USA"
+      }
+    },
+    "boughtBy": [
+      {
+        "customerId": { "$oid": "7112c4a4bd920385e254ea04" },
+        "clientName": "Wenceslau Baldrique",
+        "telephone": "292929292929",
+        "email": "wenceslau.baldrique@mongo.com",
+        "saleAddress": {
+          "street": "Carrer de l'Argenteria",
+          "number": 18,
+          "floor": 2,
+          "door": "1A",
+          "city": "Barcelona",
+          "postalCode": "08003",
+          "country": "Spain"
+        },
+        "saleDateTime": "2025-08-05T09:00:00Z",
+        "employee": {
+          "internalId": "EMPLOYEE-03",
+          "name": "Txell G"
+        }
+      },
+      {
+        "customerId": { "$oid": "7112c4a1bd920385e254ea01" },
+        "clientName": "Silvano Dreo",
+        "telephone": "141414141414",
+        "email": "silvano@mongo.com",
+        "saleAddress": {
+          "street": "Via della Q",
+          "number": 14,
+          "floor": 2,
+          "door": "A",
+          "city": "Verona",
+          "postalCode": "37121",
+          "country": "Italy"
+        },
+        "saleDateTime": "2025-08-18T13:10:00Z",
+        "employee": {
+          "internalId": "EMPLOYEE-01",
+          "name": "Berta S"
+        }
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "7112d5b3cd031496f365fb03" },
+    "brand": "Hot Stuff Oversized",
+    "frame": "plastic",
+    "frameColor": "white",
+    "graduation": {
+      "leftLens": 0.5,
+      "rightLens": 0.75
+    },
+    "glassColor": {
+      "left": "pink",
+      "right": "pink"
+    },
+    "price": 134.50,
+    "provider": {
+      "name": "Groove Optics",
+      "taxId": "C55002817",
+      "telephone": "121212121212",
+      "fax": "787878585858",
+      "address": {
+        "street": "Gran Via",
+        "number": 7,
+        "floor": 2,
+        "door": "D",
+        "city": "Barcelona",
+        "postalCode": "08001",
+        "country": "Spain"
+      }
+    },
+    "boughtBy": [
+      {
+        "customerId": { "$oid": "7112c4a3bd920385e254ea03" },
+        "clientName": "Ondina Vare",
+        "telephone": "353535353535",
+        "email": "ondina@mongo.com",
+        "saleAddress": {
+          "street": "Rua das Amendoeiras",
+          "number": 9,
+          "floor": 1,
+          "door": "3",
+          "city": "Porto",
+          "postalCode": "4050-021",
+          "country": "Portugal"
+        },
+        "saleDateTime": "2025-08-20T17:15:00Z",
+        "employee": {
+          "internalId": "EMPLOYEE-02",
+          "name": "Pepe P"
+        }
+      }
+    ]
+  }
+]

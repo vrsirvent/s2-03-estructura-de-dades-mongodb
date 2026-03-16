@@ -1,0 +1,211 @@
+[
+  {
+    "_id": { "$oid": "7112c4a1bd920385e254ea01" },
+    "clientName": "Silvano Dreo",
+    "address": {
+      "street": "Via della Q",
+      "number": 14,
+      "floor": 2,
+      "door": "A",
+      "city": "Verona",
+      "postalCode": "37121",
+      "country": "Italy"
+    },
+    "telephone": "141414141414",
+    "email": "silvano@mongo.com",
+    "registerDate": "2025-06-10",
+    "recommendedBy": null,
+    "lastShoppings": [
+      {
+        "saleDateTime": "2025-06-25T11:20:00Z",
+        "employee": {
+          "internalId": "EMPLOYEE-01",
+          "name": "Berta S"
+        },
+        "glasses": {
+          "brand": "Pearl Jam Visor",
+          "frame": "floating",
+          "frameColor": "purple",
+          "graduation": {
+            "leftLens": -3.0,
+            "rightLens": -2.75
+          },
+          "glassColor": {
+            "left": "amber",
+            "right": "amber"
+          },
+          "price": 112.50,
+          "provider": {
+            "name": "Groove Optics",
+            "taxId": "C55002817",
+            "telephone": "121212121212",
+            "fax": "787878585858",
+            "address": {
+              "street": "Gran Via",
+              "number": 7,
+              "floor": 2,
+              "door": "D",
+              "city": "Barcelona",
+              "postalCode": "08001",
+              "country": "Spain"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "7112c4a2bd920385e254ea02" },
+    "clientName": "Rodig Falken",
+    "address": {
+      "street": "Rosenthaler Strasse",
+      "number": 52,
+      "floor": 3,
+      "door": "2B",
+      "city": "Hamburg",
+      "postalCode": "20095",
+      "country": "Germany"
+    },
+    "telephone": "494949494949",
+    "email": "rudigerh@mongo.com",
+    "registerDate": "2025-07-02",
+    "recommendedBy": {
+      "customerId": { "$oid": "7112c4a1bd920385e254ea01" },
+      "clientName": "Silvano Dreo",
+      "telephone": "141414141414"
+    },
+    "lastShoppings": [
+      {
+        "saleDateTime": "2025-07-14T15:00:00Z",
+        "employee": {
+          "internalId": "EMPLOYEE-02",
+          "name": "Pepe P"
+        },
+        "glasses": {
+          "brand": "Ziggy Edition",
+          "frame": "metallic",
+          "frameColor": "red",
+          "graduation": {
+            "leftLens": -1.25,
+            "rightLens": -1.0
+          },
+          "glassColor": {
+            "left": "blue",
+            "right": "green"
+          },
+          "price": 198.00,
+          "provider": {
+            "name": "Starm Lenses",
+            "taxId": "D44781239",
+            "telephone": "565656565656",
+            "fax": "969696969696",
+            "address": {
+              "street": "Kurtendamm",
+              "number": 88,
+              "floor": 4,
+              "door": "C",
+              "city": "Berlin",
+              "postalCode": "10709",
+              "country": "Germany"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "7112c4a3bd920385e254ea03" },
+    "clientName": "Ondina Vare",
+    "address": {
+      "street": "Rua das Amendoeiras",
+      "number": 9,
+      "floor": 1,
+      "door": "3",
+      "city": "Porto",
+      "postalCode": "4050-021",
+      "country": "Portugal"
+    },
+    "telephone": "353535353535",
+    "email": "ondina@mongo.com",
+    "registerDate": "2025-07-20",
+    "recommendedBy": {
+      "customerId": { "$oid": "7112c4a2bd920385e254ea02" },
+      "clientName": "Rodig Falken",
+      "telephone": "494949494949"
+    },
+    "lastShoppings": [
+      {
+        "saleDateTime": "2025-08-01T10:45:00Z",
+        "employee": {
+          "internalId": "EMPLOYEE-03",
+          "name": "Txell G"
+        },
+        "glasses": {
+          "brand": "Simply Frame",
+          "frame": "metallic",
+          "frameColor": "gold",
+          "graduation": {
+            "leftLens": 1.5,
+            "rightLens": 1.75
+          },
+          "glassColor": {
+            "left": "transparent",
+            "right": "transparent"
+          },
+          "price": 175.00,
+          "provider": {
+            "name": "Blues Vision",
+            "taxId": "E98123450",
+            "telephone": "191919191919",
+            "fax": "525252525252",
+            "address": {
+              "street": "Mississippi Boulevard",
+              "number": 100,
+              "floor": 1,
+              "door": "A",
+              "city": "Memphis",
+              "postalCode": "38106",
+              "country": "USA"
+            }
+          }
+        }
+      },
+      {
+        "saleDateTime": "2025-08-22T14:30:00Z",
+        "employee": {
+          "internalId": "EMPLOYEE-01",
+          "name": "Berta S"
+        },
+        "glasses": {
+          "brand": "Rolling Thunder Shades",
+          "frame": "plastic",
+          "frameColor": "tortoise",
+          "graduation": {
+            "leftLens": 1.5,
+            "rightLens": 1.75
+          },
+          "glassColor": {
+            "left": "brown",
+            "right": "brown"
+          },
+          "price": 143.00,
+          "provider": {
+            "name": "Starm Lenses",
+            "taxId": "D44781239",
+            "telephone": "565656565656",
+            "fax": "969696969696",
+            "address": {
+              "street": "Kurtendamm",
+              "number": 88,
+              "floor": 4,
+              "door": "C",
+              "city": "Berlin",
+              "postalCode": "10709",
+              "country": "Germany"
+            }
+          }
+        }
+      }
+    ]
+  }
+]
